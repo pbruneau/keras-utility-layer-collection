@@ -20,7 +20,7 @@
 
 import numpy as np
 from keras import backend as K
-from keras.layers import Layer
+from tensorflow.keras.layers import Layer
 
 class DiscreteResize2D(Layer):
     """
