@@ -19,8 +19,8 @@
 # THE SOFTWARE.
 
 import keras.backend as K
-from keras.layers import Layer
-from keras.initializers import Ones, Zeros
+from tensorflow.keras.layers import Layer
+from tensorflow.keras.initializers import Ones, Zeros
 
 
 class LayerNormalization(Layer):
